@@ -1,0 +1,12 @@
+{
+  "name": "socxy-api",
+  "version": "1.0.0",
+  "description": "The Socxy API",
+  "main": "dist/index.js",
+  "repository": "http://github.com/socxy/socxy-api.git",
+  "author": "Rayan Castro",
+  "license": "MIT",
+  "devDependencies": {
+    "git-commit-msg-linter": "^3.1.0"
+  }
+}
