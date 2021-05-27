@@ -1,6 +1,6 @@
 {
   "extends": [
-    "tandard-with-typescript"
+    "standard-with-typescript"
   ],
   "parser": "@typescript-eslint/parser",
   "parserOptions": {
@@ -8,5 +8,13 @@
   },
   "plugins": [
     "@typescript-eslint"
-  ]
+  ],  
+  "rules": {
+    "max-len": [2, {"code": 80, "tabWidth": 2, "ignoreUrls": true}],
+    "@typescript-eslint/no-namespace": "off",
+    "@typescript-eslint/consistent-type-definitions": "off",
+    "@typescript-eslint/no-non-null-assertion": "off",
+    "@typescript-eslint/strict-boolean-expressions": "off",
+    "@typescript-eslint/prefer-nullish-coalescing": "off"
+  }
 }
